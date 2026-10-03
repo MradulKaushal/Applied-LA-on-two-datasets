@@ -1,0 +1,23 @@
+# Student datasets and derived row-level tables stay local.
+/data/raw/**
+/data/processed/**
+
+# Generated figures, tables, notebooks' scratch outputs, and legacy figures.
+/outputs/**
+!/outputs/README.md
+/figures/
+
+# Local Codex/Jupyter work files and internal project notes.
+/work/
+/AGENTS.md
+/PROJECT_MEMORY.md
+**/.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+
+# Local secrets and operating-system files.
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
